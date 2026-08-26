@@ -1,0 +1,200 @@
+// THE AVAILABILITY GAP | Power BI measure library
+// Import the cleaned CSV files and create the relationships documented in
+// documentation/04-data-model.md before adding these measures.
+
+// -----------------------------------------------------------------------------
+// Commercial measures
+// -----------------------------------------------------------------------------
+
+Gross Sales = SUM ( FactSalesWeekly[GrossSales] )
+
+Discount Amount = SUM ( FactSalesWeekly[DiscountAmount] )
+
+Net Sales = SUM ( FactSalesWeekly[NetSales] )
+
+Cost of Goods Sold = SUM ( FactSalesWeekly[CostOfGoodsSold] )
+
+Gross Profit = SUM ( FactSalesWeekly[GrossProfit] )
+
+Gross Margin % = DIVIDE ( [Gross Profit], [Net Sales] )
+
+Effective Discount % = DIVIDE ( [Discount Amount], [Gross Sales] )
+
+Net Units = SUM ( FactSalesWeekly[Units] )
+
+Sales Records = DISTINCTCOUNT ( FactSalesWeekly[SalesRecordID] )
+
+Return Records =
+    CALCULATE (
+        DISTINCTCOUNT ( FactSalesWeekly[SalesRecordID] ),
+        FactSalesWeekly[RecordType] = "Return"
+    )
+
+Average Realised Unit Price = DIVIDE ( [Net Sales], [Net Units] )
+
+// Store targets exist at the store-week grain. They should not be repeated for
+// individual products, categories, brands or suppliers.
+Sales Target (Aligned Scope) =
+    IF (
+        ISFILTERED ( DimProducts[ProductID] )
+            || ISFILTERED ( DimProducts[Category] )
+            || ISFILTERED ( DimProducts[Brand] )
+            || ISFILTERED ( DimSuppliers[SupplierID] ),
+        BLANK (),
+        SUM ( FactStoreTargets[NetSalesTarget] )
+    )
+
+Sales vs Target = [Net Sales] - [Sales Target (Aligned Scope)]
+
+Sales Target Attainment % = DIVIDE ( [Net Sales], [Sales Target (Aligned Scope)] )
+
+Gross Margin Target % = AVERAGE ( FactStoreTargets[GrossMarginTarget] )
+
+Gross Margin Variance pp = [Gross Margin %] - [Gross Margin Target %]
+
+// -----------------------------------------------------------------------------
+// Inventory and opportunity measures
+// -----------------------------------------------------------------------------
+
+Expected Demand Units = SUM ( FactInventoryWeekly[ExpectedDemandUnits] )
+
+Fulfilled Demand Units = SUM ( FactInventoryWeekly[FulfilledDemandUnits] )
+
+Weighted Availability % = DIVIDE ( [Fulfilled Demand Units], [Expected Demand Units] )
+
+Availability Target % = 0.94
+
+Availability Gap pp = [Weighted Availability %] - [Availability Target %]
+
+Estimated Lost Units = SUM ( FactInventoryWeekly[EstimatedLostUnits] )
+
+Estimated Lost Sales = SUM ( FactInventoryWeekly[EstimatedLostSales] )
+
+Estimated Lost Gross Profit = SUM ( FactInventoryWeekly[EstimatedLostGrossProfit] )
+
+Stockout Hours = SUM ( FactInventoryWeekly[StockoutHours] )
+
+Average Days Cover = AVERAGE ( FactInventoryWeekly[DaysCover] )
+
+Tracked Inventory Records = DISTINCTCOUNT ( FactInventoryWeekly[InventoryRecordID] )
+
+Illustrative Recovery Rate % = 0.58
+
+Illustrative Recoverable Sales = [Estimated Lost Sales] * [Illustrative Recovery Rate %]
+
+Illustrative Recoverable Gross Profit = [Estimated Lost Gross Profit] * [Illustrative Recovery Rate %]
+
+// -----------------------------------------------------------------------------
+// Supplier service measures
+// -----------------------------------------------------------------------------
+
+Supplier Ordered Units = SUM ( FactPurchaseOrders[OrderedUnits] )
+
+Supplier Received Units = SUM ( FactPurchaseOrders[ReceivedUnits] )
+
+Supplier Fill Rate % = DIVIDE ( [Supplier Received Units], [Supplier Ordered Units] )
+
+Supplier Fill Rate Target % = 0.95
+
+Purchase Orders = DISTINCTCOUNT ( FactPurchaseOrders[PurchaseOrderID] )
+
+Late Purchase Orders =
+    CALCULATE (
+        DISTINCTCOUNT ( FactPurchaseOrders[PurchaseOrderID] ),
+        FactPurchaseOrders[DaysLate] > 0
+    )
+
+On-Time Delivery % = DIVIDE ( [Purchase Orders] - [Late Purchase Orders], [Purchase Orders] )
+
+On-Time Delivery Target % = 0.93
+
+Average Delivery Delay Days = AVERAGE ( FactPurchaseOrders[DaysLate] )
+
+// -----------------------------------------------------------------------------
+// Time intelligence and movement
+// -----------------------------------------------------------------------------
+
+Net Sales Previous Week =
+    CALCULATE ( [Net Sales], DATEADD ( DimCalendar[CalendarDate], -7, DAY ) )
+
+Net Sales Week-on-Week % =
+    DIVIDE ( [Net Sales] - [Net Sales Previous Week], [Net Sales Previous Week] )
+
+Availability Previous Week % =
+    CALCULATE ( [Weighted Availability %], DATEADD ( DimCalendar[CalendarDate], -7, DAY ) )
+
+Availability Change vs Previous Week pp =
+    [Weighted Availability %] - [Availability Previous Week %]
+
+Net Sales Previous Month =
+    CALCULATE ( [Net Sales], DATEADD ( DimCalendar[CalendarDate], -1, MONTH ) )
+
+Net Sales Month-on-Month % =
+    DIVIDE ( [Net Sales] - [Net Sales Previous Month], [Net Sales Previous Month] )
+
+Availability Rolling 4 Weeks % =
+    VAR LastVisibleDate = MAX ( DimCalendar[CalendarDate] )
+    RETURN
+        CALCULATE (
+            [Weighted Availability %],
+            DATESINPERIOD ( DimCalendar[CalendarDate], LastVisibleDate, -28, DAY )
+        )
+
+Estimated Lost Sales Rolling 4 Weeks =
+    VAR LastVisibleDate = MAX ( DimCalendar[CalendarDate] )
+    RETURN
+        CALCULATE (
+            [Estimated Lost Sales],
+            DATESINPERIOD ( DimCalendar[CalendarDate], LastVisibleDate, -28, DAY )
+        )
+
+// -----------------------------------------------------------------------------
+// Contribution, ranking and dynamic labels
+// -----------------------------------------------------------------------------
+
+Store Lost Sales Rank =
+    RANKX ( ALLSELECTED ( DimStores[StoreID] ), [Estimated Lost Sales], , DESC, DENSE )
+
+Product Lost Sales Rank =
+    RANKX ( ALLSELECTED ( DimProducts[ProductID] ), [Estimated Lost Sales], , DESC, DENSE )
+
+Supplier Lost Sales Rank =
+    RANKX ( ALLSELECTED ( DimSuppliers[SupplierID] ), [Estimated Lost Sales], , DESC, DENSE )
+
+Share of Selected Lost Sales % =
+    DIVIDE (
+        [Estimated Lost Sales],
+        CALCULATE (
+            [Estimated Lost Sales],
+            ALLSELECTED ( DimStores ),
+            ALLSELECTED ( DimProducts ),
+            ALLSELECTED ( DimSuppliers )
+        )
+    )
+
+Top 10 Product Lost Sales Share % =
+    VAR TopProducts =
+        TOPN (
+            10,
+            ALLSELECTED ( DimProducts[ProductID] ),
+            [Estimated Lost Sales], DESC
+        )
+    RETURN
+        DIVIDE (
+            CALCULATE ( [Estimated Lost Sales], TopProducts ),
+            CALCULATE ( [Estimated Lost Sales], ALLSELECTED ( DimProducts[ProductID] ) )
+        )
+
+Selected Region Label =
+    SELECTEDVALUE ( DimStores[Region], "All operating regions" )
+
+Availability Page Title =
+    "Availability and recovery | " & [Selected Region Label]
+
+Supplier Exception Status =
+    SWITCH (
+        TRUE (),
+        [Supplier Fill Rate %] < 0.80 || [On-Time Delivery %] < 0.75, "Immediate intervention",
+        [Supplier Fill Rate %] < 0.90 || [On-Time Delivery %] < 0.85, "High priority",
+        "Monitor"
+    )
