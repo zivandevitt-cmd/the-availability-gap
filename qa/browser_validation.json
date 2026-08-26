@@ -1,0 +1,1101 @@
+{
+  "pages": [
+    {
+      "active": "commercial-performance",
+      "charts": 2,
+      "documentWidth": 1348,
+      "heading": "Commercial performance",
+      "id": "commercial-performance",
+      "tables": 1,
+      "width": 1363
+    },
+    {
+      "active": "product-store-performance",
+      "charts": 2,
+      "documentWidth": 1348,
+      "heading": "Product & store performance",
+      "id": "product-store-performance",
+      "tables": 1,
+      "width": 1363
+    },
+    {
+      "active": "supplier-operations",
+      "charts": 2,
+      "documentWidth": 1348,
+      "heading": "Supplier operations",
+      "id": "supplier-operations",
+      "tables": 1,
+      "width": 1363
+    },
+    {
+      "active": "root-cause",
+      "charts": 2,
+      "documentWidth": 1348,
+      "heading": "Root cause",
+      "id": "root-cause",
+      "tables": 0,
+      "width": 1363
+    },
+    {
+      "active": "financial-impact",
+      "charts": 2,
+      "documentWidth": 1348,
+      "heading": "Financial impact",
+      "id": "financial-impact",
+      "tables": 0,
+      "width": 1363
+    },
+    {
+      "active": "action-centre",
+      "charts": 0,
+      "documentWidth": 1348,
+      "heading": "Action centre",
+      "id": "action-centre",
+      "tables": 0,
+      "width": 1363
+    },
+    {
+      "active": "executive-overview",
+      "charts": 2,
+      "documentWidth": 1348,
+      "heading": "Executive overview",
+      "id": "executive-overview",
+      "tables": 1,
+      "width": 1363
+    }
+  ],
+  "scopes": {
+    "baseline": {
+      "Estimated Lost Gross Profit": 149461.69000000018,
+      "Estimated Lost Sales": 685123.8099999997,
+      "Gross Margin": 0.27392927163298514,
+      "Gross Profit": 34010739.20000004,
+      "Net Sales": 124158834.86000057,
+      "Sales Records": 69563,
+      "Sales Target": 128377125.81999984,
+      "Supplier Fill Rate": 0.9329978844437304,
+      "Weighted Availability": 0.9915726809460116
+    },
+    "region_kwazulu_natal": {
+      "activeChips": "KwaZulu-Natal\n×",
+      "metrics": {
+        "Estimated Lost Gross Profit": 60894.70999999998,
+        "Estimated Lost Sales": 315171.8399999996,
+        "Gross Margin": 0.2742710733283095,
+        "Gross Profit": 7441001.460000023,
+        "Net Sales": 27130099.319999937,
+        "Sales Records": 17161,
+        "Sales Target": 28345740.8,
+        "Supplier Fill Rate": 0.925816954125153,
+        "Weighted Availability": 0.9825574679450156
+      },
+      "options": {
+        "Category": [
+          {
+            "label": "Breakfast",
+            "value": "Breakfast"
+          },
+          {
+            "label": "Chilled Dairy",
+            "value": "Chilled Dairy"
+          },
+          {
+            "label": "Household Care",
+            "value": "Household Care"
+          },
+          {
+            "label": "Pantry Staples",
+            "value": "Pantry Staples"
+          },
+          {
+            "label": "Personal Care",
+            "value": "Personal Care"
+          },
+          {
+            "label": "Snacks & Drinks",
+            "value": "Snacks & Drinks"
+          }
+        ],
+        "Period": [
+          {
+            "label": "Feb 2026",
+            "value": "2026-02"
+          },
+          {
+            "label": "Mar 2026",
+            "value": "2026-03"
+          },
+          {
+            "label": "Apr 2026",
+            "value": "2026-04"
+          },
+          {
+            "label": "May 2026",
+            "value": "2026-05"
+          },
+          {
+            "label": "Jun 2026",
+            "value": "2026-06"
+          },
+          {
+            "label": "Jul 2026",
+            "value": "2026-07"
+          },
+          {
+            "label": "Aug 2026",
+            "value": "2026-08"
+          }
+        ],
+        "Region": [
+          {
+            "label": "Eastern Cape",
+            "value": "Eastern Cape"
+          },
+          {
+            "label": "Gauteng",
+            "value": "Gauteng"
+          },
+          {
+            "label": "KwaZulu-Natal",
+            "value": "KwaZulu-Natal"
+          },
+          {
+            "label": "Western Cape",
+            "value": "Western Cape"
+          }
+        ],
+        "Store": [
+          {
+            "label": "Morrowfield Amanzimtoti",
+            "value": "ST029"
+          },
+          {
+            "label": "Morrowfield Ballito Junction",
+            "value": "ST023"
+          },
+          {
+            "label": "Morrowfield Durban North",
+            "value": "ST025"
+          },
+          {
+            "label": "Morrowfield Hillcrest",
+            "value": "ST024"
+          },
+          {
+            "label": "Morrowfield Mount Edgecombe",
+            "value": "ST028"
+          },
+          {
+            "label": "Morrowfield Pietermaritzburg",
+            "value": "ST027"
+          },
+          {
+            "label": "Morrowfield Richards Bay",
+            "value": "ST030"
+          },
+          {
+            "label": "Morrowfield Umhlanga",
+            "value": "ST022"
+          },
+          {
+            "label": "Morrowfield Westville",
+            "value": "ST026"
+          }
+        ],
+        "Supplier": [
+          {
+            "label": "Bayline Household Supply",
+            "value": "SUP010"
+          },
+          {
+            "label": "Cape Orchard & Press",
+            "value": "SUP003"
+          },
+          {
+            "label": "Drakensberg Breakfast Foods",
+            "value": "SUP006"
+          },
+          {
+            "label": "Estuary Import Merchants",
+            "value": "SUP008"
+          },
+          {
+            "label": "Highveld Homecare Works",
+            "value": "SUP004"
+          },
+          {
+            "label": "Karoo Milling Cooperative",
+            "value": "SUP001"
+          },
+          {
+            "label": "Lowveld Personal Care",
+            "value": "SUP005"
+          },
+          {
+            "label": "Midlands Fresh Logistics",
+            "value": "SUP007"
+          },
+          {
+            "label": "North Coast Cold Stores",
+            "value": "SUP002"
+          },
+          {
+            "label": "Peninsula Ambient Foods",
+            "value": "SUP012"
+          },
+          {
+            "label": "Savanna Brand Partners",
+            "value": "SUP011"
+          },
+          {
+            "label": "Stellenridge Beverage Co.",
+            "value": "SUP009"
+          }
+        ]
+      },
+      "selected": true,
+      "selectedRow": true,
+      "triggerSelected": true
+    },
+    "category_chilled_dairy": {
+      "Estimated Lost Gross Profit": 100590.5099999998,
+      "Estimated Lost Sales": 515730.6799999992,
+      "Gross Margin": 0.2169765182410794,
+      "Gross Profit": 6020284.779999978,
+      "Net Sales": 27746250.280000016,
+      "Sales Records": 10672,
+      "Sales Target": null,
+      "Supplier Fill Rate": 0.8985464146636499,
+      "Weighted Availability": 0.9722149697219812
+    },
+    "region_and_category": {
+      "Estimated Lost Gross Profit": 47534.25000000001,
+      "Estimated Lost Sales": 269319.0900000004,
+      "Gross Margin": 0.2051050497609077,
+      "Gross Profit": 1300446.3900000048,
+      "Net Sales": 6340391.87,
+      "Sales Records": 2611,
+      "Sales Target": null,
+      "Supplier Fill Rate": 0.8535795270489148,
+      "Weighted Availability": 0.9378688077670586
+    }
+  },
+  "interactions": {
+    "legends": [
+      {
+        "chart": "Weekly net sales and plan",
+        "series": [
+          {
+            "definition": "Signed recorded sales after discounts",
+            "hasMark": true,
+            "id": "net-sales",
+            "label": "Net sales",
+            "markFill": "none",
+            "markStroke": "rgb(136, 168, 191)",
+            "swatch": "rgb(136, 168, 191)"
+          },
+          {
+            "definition": "Approved store-week sales plan",
+            "hasMark": true,
+            "id": "sales-target",
+            "label": "Sales target",
+            "markFill": "none",
+            "markStroke": "rgb(208, 172, 118)",
+            "swatch": "rgb(208, 172, 118)"
+          }
+        ]
+      },
+      {
+        "chart": "Estimated missed sales by region",
+        "series": [
+          {
+            "definition": "Capture-adjusted tracked-range opportunity",
+            "hasMark": true,
+            "id": "regional-loss",
+            "label": "Estimated lost sales",
+            "markFill": "rgb(208, 172, 118)",
+            "markStroke": "none",
+            "swatch": "rgb(208, 172, 118)"
+          }
+        ]
+      }
+    ],
+    "multiSelect": {
+      "checked": [
+        "Eastern Cape",
+        "KwaZulu-Natal"
+      ],
+      "chips": 2,
+      "count": "2",
+      "selectedRows": 2,
+      "storeOptions": [
+        {
+          "label": "Morrowfield Amanzimtoti",
+          "value": "ST029"
+        },
+        {
+          "label": "Morrowfield Ballito Junction",
+          "value": "ST023"
+        },
+        {
+          "label": "Morrowfield Beacon Bay",
+          "value": "ST032"
+        },
+        {
+          "label": "Morrowfield Durban North",
+          "value": "ST025"
+        },
+        {
+          "label": "Morrowfield Hillcrest",
+          "value": "ST024"
+        },
+        {
+          "label": "Morrowfield Jeffreys Bay",
+          "value": "ST035"
+        },
+        {
+          "label": "Morrowfield Makhanda",
+          "value": "ST036"
+        },
+        {
+          "label": "Morrowfield Mount Edgecombe",
+          "value": "ST028"
+        },
+        {
+          "label": "Morrowfield Mthatha Plaza",
+          "value": "ST033"
+        },
+        {
+          "label": "Morrowfield Newton Park",
+          "value": "ST034"
+        },
+        {
+          "label": "Morrowfield Pietermaritzburg",
+          "value": "ST027"
+        },
+        {
+          "label": "Morrowfield Richards Bay",
+          "value": "ST030"
+        },
+        {
+          "label": "Morrowfield Umhlanga",
+          "value": "ST022"
+        },
+        {
+          "label": "Morrowfield Walmer",
+          "value": "ST031"
+        },
+        {
+          "label": "Morrowfield Westville",
+          "value": "ST026"
+        }
+      ],
+      "summary": "2 selected",
+      "triggerSelected": true
+    },
+    "storeSelection": {
+      "chips": [
+        "KwaZulu-Natal\n×",
+        "Eastern Cape\n×"
+      ],
+      "regions": [
+        "Eastern Cape",
+        "Gauteng",
+        "KwaZulu-Natal",
+        "Western Cape"
+      ],
+      "selectedStore": []
+    },
+    "sorting": {
+      "error": null,
+      "before": "White maize meal 5 kg\tPantry Staples\tKaroo Milling Cooperative\tR5 730 775\t99.7%\tR11 013\tR2 453",
+      "after": "Cheddar cheese block 700 g\tChilled Dairy\tNorth Coast Cold Stores\tR5 051 772\t96.1%\tR147 660\tR21 055",
+      "label": "Est. missed sales ↓",
+      "changed": true
+    },
+    "pagination": {
+      "first": "Free-range eggs 18 pack\tChilled Dairy\tMidlands Fresh Logistics\tR3 829 568\t99.7%\tR9 355\tR2 113",
+      "previousDisabled": false,
+      "range": "12–22 of 77\nPrevious\nNext"
+    },
+    "completeBrowserSuite": {
+      "checks": [
+        {
+          "detail": {
+            "regions": [
+              "Eastern Cape",
+              "KwaZulu-Natal"
+            ]
+          },
+          "name": "Region multi-select keeps both selected checkboxes",
+          "passed": true
+        },
+        {
+          "detail": {},
+          "name": "Selected region count, state and active chips remain visible",
+          "passed": true
+        },
+        {
+          "detail": {
+            "storeCount": 15
+          },
+          "name": "Store choices cascade to the selected regions",
+          "passed": true
+        },
+        {
+          "detail": {},
+          "name": "Upstream region options stay available after selecting a store",
+          "passed": true
+        },
+        {
+          "detail": {
+            "remainingRegions": [
+              "Eastern Cape"
+            ],
+            "storeSummary": "All"
+          },
+          "name": "Changing region automatically removes an invalid downstream store",
+          "passed": true
+        },
+        {
+          "detail": {},
+          "name": "Clear-all restores the independent baseline",
+          "passed": true
+        },
+        {
+          "detail": {
+            "selectedSuppliers": [
+              "SUP007",
+              "SUP002"
+            ]
+          },
+          "name": "Supplier search preserves selections across different searches",
+          "passed": true
+        },
+        {
+          "detail": {},
+          "name": "Every selected supplier keeps its visible selected-row status",
+          "passed": true
+        },
+        {
+          "detail": {
+            "supplierSummary": "All"
+          },
+          "name": "Changing category prunes incompatible selected suppliers",
+          "passed": true
+        },
+        {
+          "detail": {},
+          "name": "Final clear-all resets every report filter",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Executive overview"
+          },
+          "name": "Page Executive overview is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Weekly net sales and plan",
+            "fill": "none",
+            "stroke": "rgb(136, 168, 191)",
+            "swatchColor": "rgb(136, 168, 191)"
+          },
+          "name": "Chart legend net-sales matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Weekly net sales and plan",
+            "fill": "none",
+            "stroke": "rgb(208, 172, 118)",
+            "swatchColor": "rgb(208, 172, 118)"
+          },
+          "name": "Chart legend sales-target matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Estimated missed sales by region",
+            "fill": "rgb(208, 172, 118)",
+            "stroke": "none",
+            "swatchColor": "rgb(208, 172, 118)"
+          },
+          "name": "Chart legend regional-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Commercial performance"
+          },
+          "name": "Page Commercial performance is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Gross profit and discount movement",
+            "fill": "none",
+            "stroke": "rgb(148, 185, 159)",
+            "swatchColor": "rgb(148, 185, 159)"
+          },
+          "name": "Chart legend gross-profit matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Gross profit and discount movement",
+            "fill": "none",
+            "stroke": "rgb(218, 133, 120)",
+            "swatchColor": "rgb(218, 133, 120)"
+          },
+          "name": "Chart legend discount-value matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Net sales by operating region",
+            "fill": "rgb(136, 168, 191)",
+            "stroke": "none",
+            "swatchColor": "rgb(136, 168, 191)"
+          },
+          "name": "Chart legend region-sales matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Product & store performance"
+          },
+          "name": "Page Product & store performance is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Product opportunity concentration",
+            "fill": "rgb(136, 168, 191)",
+            "stroke": "none",
+            "swatchColor": "rgb(136, 168, 191)"
+          },
+          "name": "Chart legend product-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Product opportunity concentration",
+            "fill": "none",
+            "stroke": "rgb(208, 172, 118)",
+            "swatchColor": "rgb(208, 172, 118)"
+          },
+          "name": "Chart legend cumulative-share matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Stores with the greatest exposure",
+            "fill": "rgb(218, 133, 120)",
+            "stroke": "none",
+            "swatchColor": "rgb(218, 133, 120)"
+          },
+          "name": "Chart legend store-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Supplier operations"
+          },
+          "name": "Page Supplier operations is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Supplier service and fill rate",
+            "fill": "rgb(136, 168, 191)",
+            "stroke": "none",
+            "swatchColor": "rgb(136, 168, 191)"
+          },
+          "name": "Chart legend fill-rate matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Supplier service and fill rate",
+            "fill": "rgb(208, 172, 118)",
+            "stroke": "none",
+            "swatchColor": "rgb(208, 172, 118)"
+          },
+          "name": "Chart legend on-time-rate matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Supplier-linked missed sales",
+            "fill": "rgb(208, 172, 118)",
+            "stroke": "none",
+            "swatchColor": "rgb(208, 172, 118)"
+          },
+          "name": "Chart legend supplier-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Root cause"
+          },
+          "name": "Page Root cause is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Product opportunity concentration",
+            "fill": "rgb(136, 168, 191)",
+            "stroke": "none",
+            "swatchColor": "rgb(136, 168, 191)"
+          },
+          "name": "Chart legend product-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Product opportunity concentration",
+            "fill": "none",
+            "stroke": "rgb(208, 172, 118)",
+            "swatchColor": "rgb(208, 172, 118)"
+          },
+          "name": "Chart legend cumulative-share matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Supplier × region exposure",
+            "fill": "rgb(218, 133, 120)",
+            "stroke": "none",
+            "swatchColor": "rgb(218, 133, 120)"
+          },
+          "name": "Chart legend supplier-region-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Financial impact"
+          },
+          "name": "Page Financial impact is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Estimated gross-profit exposure by category",
+            "fill": "rgb(148, 185, 159)",
+            "stroke": "none",
+            "swatchColor": "rgb(148, 185, 159)"
+          },
+          "name": "Chart legend category-gp-loss matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "chart": "Estimated recovery by operating region",
+            "fill": "rgb(136, 168, 191)",
+            "stroke": "none",
+            "swatchColor": "rgb(136, 168, 191)"
+          },
+          "name": "Chart legend regional-recovery matches its plotted mark",
+          "passed": true
+        },
+        {
+          "detail": {
+            "active": "true",
+            "heading": "Action centre"
+          },
+          "name": "Page Action centre is reachable and correctly identified",
+          "passed": true
+        },
+        {
+          "detail": {
+            "firstAfter": "Low-fat fresh milk 2 L\tChilled Dairy\tNorth Coast Cold Stores\tR61 470\t95.0%\tR2 308\tR397",
+            "firstBefore": "Cheddar cheese block 700 g\tChilled Dairy\tNorth Coast Cold Stores\tR149 308\t98.0%\tR2 288\tR396"
+          },
+          "name": "Product detail sorting changes the visible row order",
+          "passed": true
+        },
+        {
+          "detail": {
+            "pageRange": "12–22 of 77\nPrevious\nNext"
+          },
+          "name": "Product detail pagination advances to the second page",
+          "passed": true
+        }
+      ],
+      "fixtureRows": 1800,
+      "legends": 17,
+      "pages": 7,
+      "passed": true
+    }
+  },
+  "consoleErrors": [],
+  "checks": [],
+  "reconciliation": {
+    "baseline": {
+      "Net Sales": {
+        "actual": 124158834.86000057,
+        "expected": 124158834.86,
+        "pass": true
+      },
+      "Gross Profit": {
+        "actual": 34010739.20000004,
+        "expected": 34010739.2,
+        "pass": true
+      },
+      "Gross Margin": {
+        "actual": 0.27392927163298514,
+        "expected": 0.2739292716329861,
+        "pass": true
+      },
+      "Weighted Availability": {
+        "actual": 0.9915726809460116,
+        "expected": 0.9915726809460116,
+        "pass": true
+      },
+      "Estimated Lost Sales": {
+        "actual": 685123.8099999997,
+        "expected": 685123.81,
+        "pass": true
+      },
+      "Estimated Lost Gross Profit": {
+        "actual": 149461.69000000018,
+        "expected": 149461.69,
+        "pass": true
+      },
+      "Sales Records": {
+        "actual": 69563,
+        "expected": 69563,
+        "pass": true
+      },
+      "Sales Target": {
+        "actual": 128377125.81999984,
+        "expected": 128377125.82,
+        "pass": true
+      }
+    },
+    "region_kwazulu_natal": {
+      "Net Sales": {
+        "actual": 27130099.319999937,
+        "expected": 27130099.32,
+        "pass": true
+      },
+      "Gross Profit": {
+        "actual": 7441001.460000023,
+        "expected": 7441001.46,
+        "pass": true
+      },
+      "Gross Margin": {
+        "actual": 0.2742710733283095,
+        "expected": 0.274271073328308,
+        "pass": true
+      },
+      "Weighted Availability": {
+        "actual": 0.9825574679450156,
+        "expected": 0.9825574679450156,
+        "pass": true
+      },
+      "Estimated Lost Sales": {
+        "actual": 315171.8399999996,
+        "expected": 315171.84,
+        "pass": true
+      },
+      "Estimated Lost Gross Profit": {
+        "actual": 60894.70999999998,
+        "expected": 60894.71,
+        "pass": true
+      },
+      "Sales Records": {
+        "actual": 17161,
+        "expected": 17161,
+        "pass": true
+      },
+      "Sales Target": {
+        "actual": 28345740.8,
+        "expected": 28345740.8,
+        "pass": true
+      }
+    },
+    "category_chilled_dairy": {
+      "Net Sales": {
+        "actual": 27746250.280000016,
+        "expected": 27746250.28,
+        "pass": true
+      },
+      "Gross Profit": {
+        "actual": 6020284.779999978,
+        "expected": 6020284.78,
+        "pass": true
+      },
+      "Gross Margin": {
+        "actual": 0.2169765182410794,
+        "expected": 0.21697651824108033,
+        "pass": true
+      },
+      "Weighted Availability": {
+        "actual": 0.9722149697219812,
+        "expected": 0.9722149697219813,
+        "pass": true
+      },
+      "Estimated Lost Sales": {
+        "actual": 515730.6799999992,
+        "expected": 515730.68,
+        "pass": true
+      },
+      "Estimated Lost Gross Profit": {
+        "actual": 100590.5099999998,
+        "expected": 100590.51,
+        "pass": true
+      },
+      "Sales Records": {
+        "actual": 10672,
+        "expected": 10672,
+        "pass": true
+      },
+      "Sales Target": {
+        "actual": null,
+        "expected": null,
+        "pass": true
+      }
+    },
+    "region_and_category": {
+      "Net Sales": {
+        "actual": 6340391.87,
+        "expected": 6340391.87,
+        "pass": true
+      },
+      "Gross Profit": {
+        "actual": 1300446.3900000048,
+        "expected": 1300446.39,
+        "pass": true
+      },
+      "Gross Margin": {
+        "actual": 0.2051050497609077,
+        "expected": 0.205105049760907,
+        "pass": true
+      },
+      "Weighted Availability": {
+        "actual": 0.9378688077670586,
+        "expected": 0.9378688077670586,
+        "pass": true
+      },
+      "Estimated Lost Sales": {
+        "actual": 269319.0900000004,
+        "expected": 269319.09,
+        "pass": true
+      },
+      "Estimated Lost Gross Profit": {
+        "actual": 47534.25000000001,
+        "expected": 47534.25,
+        "pass": true
+      },
+      "Sales Records": {
+        "actual": 2611,
+        "expected": 2611,
+        "pass": true
+      },
+      "Sales Target": {
+        "actual": null,
+        "expected": null,
+        "pass": true
+      }
+    }
+  },
+  "landing": {
+    "description": "Independent retail analytics portfolio: 69,563 sales records, 52,208 stock observations and a hidden supplier-driven availability gap.",
+    "documentWidth": 1348,
+    "fictionDisclosed": true,
+    "heading": "The number looked healthy.\nThe shelves told a different story.",
+    "images": [
+      {
+        "loaded": true,
+        "src": "/images/executive-overview.jpg"
+      },
+      {
+        "loaded": true,
+        "src": "/images/data-model.png"
+      }
+    ],
+    "links": [
+      {
+        "href": "#top",
+        "text": "MORROWFIELD\nCASEFILE / 01"
+      },
+      {
+        "href": "#findings",
+        "text": "Findings"
+      },
+      {
+        "href": "#work",
+        "text": "Project files"
+      },
+      {
+        "href": "/dashboard/index.html",
+        "text": "Open dashboard"
+      },
+      {
+        "href": "/dashboard/index.html",
+        "text": "Explore the interactive report\n↗"
+      },
+      {
+        "href": "/files/Morrowfield_Availability_Margin_Analyst_Workbook.xlsx",
+        "text": "Download the Excel workbook"
+      },
+      {
+        "href": "/dashboard/index.html",
+        "text": "Open full-screen report ↗"
+      },
+      {
+        "href": "/dashboard/index.html",
+        "text": ""
+      },
+      {
+        "href": "/files/04-data-model.md",
+        "text": "Read model documentation ↗"
+      },
+      {
+        "href": "/dashboard/index.html",
+        "text": "Open dashboard ↗"
+      },
+      {
+        "href": "/files/Morrowfield_Availability_Margin_Analyst_Workbook.xlsx",
+        "text": "Download workbook ↗"
+      },
+      {
+        "href": "/files/02_management_questions.sql",
+        "text": "Inspect SQL ↗"
+      },
+      {
+        "href": "/files/02_dax_measure_library.dax",
+        "text": "View DAX library ↗"
+      },
+      {
+        "href": "/files/02-management-brief.md",
+        "text": "Read the brief ↗"
+      },
+      {
+        "href": "/files/Morrowfield_Retail_Analytics_Complete_Project.zip",
+        "text": "Download full project ↗"
+      },
+      {
+        "href": "/files/Morrowfield_Retail_Analytics_Complete_Project.zip",
+        "text": "Download the complete project ↗"
+      }
+    ],
+    "title": "The Availability Gap | Zivan Devitt",
+    "width": 1363,
+    "mobile": {
+      "documentWidth": 375,
+      "fictionDisclosed": true,
+      "heading": "The number looked healthy.\nThe shelves told a different story.",
+      "images": [
+        {
+          "loaded": true,
+          "src": "/images/executive-overview.jpg"
+        },
+        {
+          "loaded": true,
+          "src": "/images/data-model.png"
+        }
+      ],
+      "links": 16,
+      "title": "The Availability Gap | Zivan Devitt",
+      "width": 390
+    }
+  },
+  "responsive": [
+    {
+      "documentWidth": 1425,
+      "duplicateIds": [],
+      "filterColumns": "212.594px 212.594px 212.609px 212.594px 212.609px",
+      "heading": "Executive overview",
+      "height": 1000,
+      "kpiColumns": "174.656px 174.672px 174.672px 174.656px 174.672px 174.672px",
+      "page": "executive-overview",
+      "ready": "true",
+      "sidebarPosition": "sticky",
+      "viewport": 1440
+    },
+    {
+      "documentWidth": 885,
+      "duplicateIds": [],
+      "filterColumns": "275px 275px 275px",
+      "heading": "Executive overview",
+      "height": 900,
+      "kpiColumns": "274.328px 274.328px 274.344px",
+      "page": "executive-overview",
+      "ready": "true",
+      "sidebarPosition": "static",
+      "viewport": 900
+    },
+    {
+      "documentWidth": 585,
+      "duplicateIds": [],
+      "filterColumns": "275px 275px",
+      "heading": "Executive overview",
+      "height": 900,
+      "kpiColumns": "275.5px 275.5px",
+      "page": "executive-overview",
+      "ready": "true",
+      "sidebarPosition": "static",
+      "viewport": 600
+    },
+    {
+      "documentWidth": 375,
+      "duplicateIds": [],
+      "filterColumns": "170px 170px",
+      "heading": "Executive overview",
+      "height": 844,
+      "kpiColumns": "170.5px 170.5px",
+      "page": "executive-overview",
+      "ready": "true",
+      "sidebarPosition": "static",
+      "viewport": 390
+    }
+  ],
+  "release": {
+    "status": "PASS",
+    "score": 99.5,
+    "testedViewports": [
+      {
+        "width": 1440,
+        "height": 1000
+      },
+      {
+        "width": 900,
+        "height": 900
+      },
+      {
+        "width": 600,
+        "height": 900
+      },
+      {
+        "width": 390,
+        "height": 844
+      }
+    ],
+    "reconciliationScopes": [
+      "baseline",
+      "region_kwazulu_natal",
+      "category_chilled_dairy",
+      "region_and_category"
+    ],
+    "everyMetricPass": true,
+    "allResponsiveLayoutsPass": true,
+    "allPagesVisited": true,
+    "browserInteractionChecks": 36,
+    "browserInteractionPass": true,
+    "chartLegendsChecked": 17,
+    "sortableProductTable": true,
+    "paginatedProductTable": true,
+    "consoleErrors": 0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "baseline": {
+    "Net Sales": 124158834.86,
+    "Gross Profit": 34010739.2,
+    "Gross Margin": 0.2739292716329861,
+    "Weighted Availability": 0.9915726809460116,
+    "Estimated Lost Sales": 685123.81,
+    "Estimated Lost Gross Profit": 149461.69,
+    "Sales Records": 69563,
+    "Sales Target": 128377125.82
+  },
+  "region_kwazulu_natal": {
+    "filter": {
+      "Region": [
+        "KwaZulu-Natal"
+      ]
+    },
+    "metrics": {
+      "Net Sales": 27130099.32,
+      "Gross Profit": 7441001.46,
+      "Gross Margin": 0.274271073328308,
+      "Weighted Availability": 0.9825574679450156,
+      "Estimated Lost Sales": 315171.84,
+      "Estimated Lost Gross Profit": 60894.71,
+      "Sales Records": 17161,
+      "Sales Target": 28345740.8
+    }
+  },
+  "category_chilled_dairy": {
+    "filter": {
+      "Category": [
+        "Chilled Dairy"
+      ]
+    },
+    "metrics": {
+      "Net Sales": 27746250.28,
+      "Gross Profit": 6020284.78,
+      "Gross Margin": 0.21697651824108033,
+      "Weighted Availability": 0.9722149697219813,
+      "Estimated Lost Sales": 515730.68,
+      "Estimated Lost Gross Profit": 100590.51,
+      "Sales Records": 10672,
+      "Sales Target": null
+    }
+  },
+  "region_and_category": {
+    "filter": {
+      "Region": [
+        "KwaZulu-Natal"
+      ],
+      "Category": [
+        "Chilled Dairy"
+      ]
+    },
+    "metrics": {
+      "Net Sales": 6340391.87,
+      "Gross Profit": 1300446.39,
+      "Gross Margin": 0.205105049760907,
+      "Weighted Availability": 0.9378688077670586,
+      "Estimated Lost Sales": 269319.09,
+      "Estimated Lost Gross Profit": 47534.25,
+      "Sales Records": 2611,
+      "Sales Target": null
+    }
+  }
+}

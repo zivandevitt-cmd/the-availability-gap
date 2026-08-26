@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "query_count": 10,
+  "queries": [
+    {
+      "query": 1,
+      "rows": 1,
+      "columns": [
+        "sales_records",
+        "gross_sales",
+        "discount_amount",
+        "net_sales",
+        "gross_profit",
+        "gross_margin_pct",
+        "target_attainment_pct",
+        "weighted_availability_pct",
+        "estimated_lost_sales",
+        "estimated_lost_gross_profit"
+      ]
+    },
+    {
+      "query": 2,
+      "rows": 26,
+      "columns": [
+        "WeekStartDate",
+        "net_sales",
+        "availability_pct",
+        "estimated_lost_sales",
+        "net_sales_change_vs_prior_week",
+        "availability_change_vs_prior_week",
+        "availability_rolling_four_weeks"
+      ]
+    },
+    {
+      "query": 3,
+      "rows": 4,
+      "columns": [
+        "Region",
+        "net_sales",
+        "sales_contribution_pct",
+        "gross_margin_pct",
+        "effective_discount_pct",
+        "availability_pct",
+        "estimated_lost_sales",
+        "loss_exposure_rank"
+      ]
+    },
+    {
+      "query": 4,
+      "rows": 12,
+      "columns": [
+        "SupplierName",
+        "purchase_orders",
+        "weighted_fill_rate",
+        "on_time_rate",
+        "availability_pct",
+        "estimated_lost_sales",
+        "share_of_total_loss",
+        "estimated_lost_gross_profit"
+      ]
+    },
+    {
+      "query": 5,
+      "rows": 15,
+      "columns": [
+        "lost_sales_rank",
+        "ProductName",
+        "Category",
+        "SupplierName",
+        "estimated_lost_sales",
+        "loss_share",
+        "cumulative_loss_share"
+      ]
+    },
+    {
+      "query": 6,
+      "rows": 12,
+      "columns": [
+        "Region",
+        "StoreName",
+        "StoreFormat",
+        "regional_priority_rank",
+        "availability_pct",
+        "estimated_lost_sales",
+        "estimated_lost_gross_profit"
+      ]
+    },
+    {
+      "query": 7,
+      "rows": 52,
+      "columns": [
+        "WeekStartDate",
+        "Region",
+        "SupplierName",
+        "availability_pct",
+        "estimated_lost_sales",
+        "prior_week_availability",
+        "next_week_availability",
+        "response_band"
+      ]
+    },
+    {
+      "query": 8,
+      "rows": 6,
+      "columns": [
+        "Region",
+        "Category",
+        "promotion_group",
+        "sales_records",
+        "net_sales",
+        "gross_margin_pct",
+        "effective_discount_pct"
+      ]
+    },
+    {
+      "query": 9,
+      "rows": 12,
+      "columns": [
+        "Region",
+        "SupplierName",
+        "estimated_lost_sales",
+        "estimated_lost_gp",
+        "contribution_to_total",
+        "driver_rank"
+      ]
+    },
+    {
+      "query": 10,
+      "rows": 6,
+      "columns": [
+        "check_name",
+        "exception_count"
+      ]
+    }
+  ]
+}

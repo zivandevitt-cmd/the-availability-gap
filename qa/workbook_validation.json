@@ -1,0 +1,85 @@
+{
+  "workbook": "/workspace/scratch/cb790ae3907f/morrowfield-retail-availability-intelligence/excel/Morrowfield_Availability_Margin_Analyst_Workbook.xlsx",
+  "sheets": [
+    "Executive Overview",
+    "Weekly Trend",
+    "Regional Scorecard",
+    "Store Priorities",
+    "Product Pareto",
+    "Supplier Service",
+    "Promotion Review",
+    "Action Centre",
+    "Data Quality",
+    "Reconciliation",
+    "KPI Dictionary",
+    "Sales Review Sample",
+    "Inventory Review Sample",
+    "Supplier Orders"
+  ],
+  "sampleCounts": {
+    "sales": 6000,
+    "inventory": 4500,
+    "orders": 5744
+  },
+  "renderedSheets": [
+    {
+      "sheet": "Executive Overview",
+      "rendered": true
+    },
+    {
+      "sheet": "Weekly Trend",
+      "rendered": true
+    },
+    {
+      "sheet": "Regional Scorecard",
+      "rendered": true
+    },
+    {
+      "sheet": "Store Priorities",
+      "rendered": true
+    },
+    {
+      "sheet": "Product Pareto",
+      "rendered": true
+    },
+    {
+      "sheet": "Supplier Service",
+      "rendered": true
+    },
+    {
+      "sheet": "Promotion Review",
+      "rendered": true
+    },
+    {
+      "sheet": "Action Centre",
+      "rendered": true
+    },
+    {
+      "sheet": "Data Quality",
+      "rendered": true
+    },
+    {
+      "sheet": "Reconciliation",
+      "rendered": true
+    },
+    {
+      "sheet": "KPI Dictionary",
+      "rendered": true
+    },
+    {
+      "sheet": "Sales Review Sample",
+      "rendered": true
+    },
+    {
+      "sheet": "Inventory Review Sample",
+      "rendered": true
+    },
+    {
+      "sheet": "Supplier Orders",
+      "rendered": true
+    }
+  ],
+  "formulaErrorScan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "executiveInspection": "{\"kind\":\"table\",\"sheet\":\"Executive Overview\",\"address\":\"A1:Q10\",\"rows\":10,\"cols\":17,\"values\":[[\"MORROWFIELD / THE AVAILABILITY GAP\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[\"Retail availability, supplier service and commercial margin | 23 Feb–23 Aug 2026\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[\"NET SALES\",null,null,null,null,\"SALES VS TARGET\",null,null,null,null,\"GROSS MARGIN\",null,null,null,\"WEIGHTED AVAILABILITY\",null,null],[124158834.86000001,null,null,null,null,0.9671414129810434,null,null,null,null,0.27392927163298614,null,null,null,0.9915726809460116,null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[\"Actual recorded sales\",null,null,null,null,\"Store-week target\",null,null,null,null,\"29% management target\",null,null,null,\"Tracked range; 94% target\",null,null],[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],[\"HIDDEN ISSUE  |  North Coast Cold Stores contributes 72.0% of estimated missed sales despite healthy national availability.\",null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]]}",
+  "reconciliationInspection": "{\"kind\":\"table\",\"sheet\":\"Reconciliation\",\"address\":\"A5:F13\",\"rows\":9,\"cols\":6,\"values\":[[\"Control\",\"Source / formula\",\"Expected value\",\"Workbook value\",\"Difference\",\"Status\"],[\"Net sales\",\"Complete weekly commercial control\",124158834.86,124158834.86000001,1.4901161193847656e-8,\"PASS\"],[\"Gross profit\",\"Complete weekly commercial control\",34010739.2,34010739.20000001,7.450580596923828e-9,\"PASS\"],[\"Sales target\",\"Complete weekly store targets\",128377125.82,128377125.82000002,2.9802322387695312e-8,\"PASS\"],[\"Estimated lost sales\",\"Complete tracked weekly inventory\",685123.81,685123.8099999999,-1.1641532182693481e-10,\"PASS\"],[\"Estimated lost gross profit\",\"Complete tracked weekly inventory\",149461.69,149461.69,0,\"PASS\"],[\"Regional sales total\",\"All four regions\",124158834.86,124158834.86,0,\"PASS\"],[\"Supplier loss total\",\"All twelve suppliers\",685123.81,685123.81,0,\"PASS\"],[\"Store loss total\",\"All thirty-six stores\",685123.81,685123.81,0,\"PASS\"]]}"
+}
