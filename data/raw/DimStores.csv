@@ -1,0 +1,37 @@
+StoreID,StoreName,City,RegionID,Region,StoreFormat,SellingAreaSqm,OperatingSince,CommercialIndex,Cluster,RegionalManager
+ST001,Morrowfield Rosebank,Johannesburg,REG01,Gauteng,Market,1386,2020-05-04,1.003,Inland,N. Maseko
+ST002,Morrowfield Fourways Crossing,Johannesburg,REG01,GAUTENG ,Food Hall,1459,2020-01-05,1.303,Inland,N. Maseko
+ST003,Morrowfield Menlyn,Pretoria,REG01,Gauteng,Market,1212,2020-10-04,1.194,Inland,N. Maseko
+ST004,Morrowfield Centurion East,Centurion,REG01,Gauteng,Neighbourhood,543,2018-03-17,1.367,Inland,N. Maseko
+ST005,Morrowfield Sandton Village,Johannesburg,REG01,Gauteng,Food Hall,2081,2022-11-05,1.346,Inland,N. Maseko
+ST006,Morrowfield Bedfordview,Ekurhuleni,REG01,Gauteng,Market,1079,2020-04-18,1.341,Inland,N. Maseko
+ST007,Morrowfield Midrand West,Midrand,REG01,GAUTENG ,Market,1255,2021-08-11,1.362,Inland,N. Maseko
+ST008,Morrowfield Waterfall,Midrand,REG01,Gauteng,Food Hall,1672,2023-02-24,1.281,Inland,N. Maseko
+ST009,Morrowfield Irene Link,Centurion,REG01,Gauteng,Market,1223,2018-07-01,1.15,Inland,N. Maseko
+ST010,Morrowfield Bryanston,Johannesburg,REG01,Gauteng,Neighbourhood,707,2021-07-23,1.229,Inland,N. Maseko
+ST011,Morrowfield Lynnwood,Pretoria,REG01,Gauteng,Market,1341,2019-08-13,1.089,Inland,N. Maseko
+ST012,Morrowfield Randpark Ridge,Randburg,REG01,Gauteng,Market,1275,2020-02-16,1.179,Inland,N. Maseko
+ST013,Morrowfield Sea Point,Cape Town,REG02,Western Cape,Food Hall,2080,2020-05-23,0.966,Cape,S. Daniels
+ST014,Morrowfield Claremont,Cape Town,REG02,Western Cape,Neighbourhood,544,2024-09-21,1.077,Cape,S. Daniels
+ST015,Morrowfield Durbanville,Cape Town,REG02,Western Cape,Food Hall,2047,2022-05-05,0.963,Cape,S. Daniels
+ST016,Morrowfield Stellenbosch,Stellenbosch,REG02,Western Cape,Market,1054,2021-06-01,1.259,Cape,S. Daniels
+ST017,Morrowfield Paarl Main,Paarl,REG02,Western Cape,Neighbourhood,645,2021-04-17,0.98,Cape,S. Daniels
+ST018,Morrowfield Table View,Cape Town,REG02,Western Cape,Market,1033,2019-05-24,1.056,Cape,S. Daniels
+ST019,Morrowfield Somerset West,Somerset West,REG02,Western Cape,Food Hall,1799,2020-07-09,1.161,Cape,S. Daniels
+ST020,Morrowfield George,George,REG02,Western Cape,Market,1119,2018-11-12,0.9,Cape,S. Daniels
+ST021,Morrowfield Tokai,Cape Town,REG02,Western Cape,Market,1399,2021-03-03,1.254,Cape,S. Daniels
+ST022,Morrowfield Umhlanga,Durban,REG03,KZN,Neighbourhood,515,2021-08-14,1.186,East Coast,T. Naidoo
+ST023,Morrowfield Ballito Junction,Ballito,REG03,KwaZulu-Natal,Food Hall,1960,2020-08-13,0.941,East Coast,T. Naidoo
+ST024,Morrowfield Hillcrest,Durban,REG03,KwaZulu-Natal,Market,1186,2021-11-19,0.806,East Coast,T. Naidoo
+ST025,Morrowfield Durban North,Durban,REG03,KwaZulu-Natal,Neighbourhood,519,2020-10-05,1.088,East Coast,T. Naidoo
+ST026,Morrowfield Westville,Durban,REG03,KwaZulu-Natal,Market,1444,2024-01-03,1.001,East Coast,T. Naidoo
+ST027,Morrowfield Pietermaritzburg,Pietermaritzburg,REG03,KZN,Food Hall,1971,2019-07-19,0.829,East Coast,T. Naidoo
+ST028,Morrowfield Mount Edgecombe,Durban,REG03,KZN,Neighbourhood,666,2024-12-04,0.831,East Coast,T. Naidoo
+ST029,Morrowfield Amanzimtoti,Amanzimtoti,REG03,KZN,Market,1189,2022-08-09,0.933,East Coast,T. Naidoo
+ST030,Morrowfield Richards Bay,Richards Bay,REG03,KwaZulu-Natal,Market,1394,2023-01-07,1.071,East Coast,T. Naidoo
+ST031,Morrowfield Walmer,Gqeberha,REG04,Eastern Cape,Food Hall,1791,2023-01-15,0.755,East Coast,L. Mbeki
+ST032,Morrowfield Beacon Bay,East London,REG04,Eastern Cape,Market,1265,2021-08-06,0.808,East Coast,L. Mbeki
+ST033,Morrowfield Mthatha Plaza,Mthatha,REG04,Eastern Cape,Neighbourhood,633,2019-10-20,0.719,East Coast,L. Mbeki
+ST034,Morrowfield Newton Park,Gqeberha,REG04,Eastern-Cape,Market,1416,2022-09-09,0.71,East Coast,L. Mbeki
+ST035,Morrowfield Jeffreys Bay,Jeffreys Bay,REG04,Eastern Cape,Market,1399,2021-09-01,0.876,East Coast,L. Mbeki
+ST036,Morrowfield Makhanda,Makhanda,REG04,Eastern Cape,Neighbourhood,686,2018-01-05,0.829,East Coast,L. Mbeki
