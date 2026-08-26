@@ -1,0 +1,101 @@
+Table,Field,DataType,TableGrain,Description,NullableInSample,Example
+DimCalendar,DateKey,int64,Calendar day,Date Key.,False,20260223
+DimCalendar,CalendarDate,object,Calendar day,Calendar Date.,False,2026-02-23
+DimCalendar,WeekStartDate,object,Calendar day,Monday starting the completed reporting week.,False,2026-02-23
+DimCalendar,WeekNumber,int64,Calendar day,Week Number.,False,9
+DimCalendar,MonthStart,object,Calendar day,Month Start.,False,2026-02-01
+DimCalendar,MonthLabel,object,Calendar day,Month Label.,False,Feb 2026
+DimCalendar,QuarterLabel,object,Calendar day,Quarter Label.,False,Q1 2026
+DimCalendar,DayName,object,Calendar day,Day Name.,False,Monday
+DimCalendar,IsWeekend,bool,Calendar day,Is Weekend.,False,False
+DimProducts,ProductID,object,Approved product,Approved product assortment dimension key.,False,PR001
+DimProducts,ProductName,object,Approved product,Product Name.,False,White maize meal 5 kg
+DimProducts,Brand,object,Approved product,Brand.,False,Stonepath
+DimProducts,Category,object,Approved product,Category.,False,Pantry Staples
+DimProducts,SupplierID,object,Approved product,Approved primary supplier dimension key.,False,SUP001
+DimProducts,ListUnitPrice,float64,Approved product,List Unit Price.,False,84.8
+DimProducts,StandardUnitCost,float64,Approved product,Standard Unit Cost.,False,63.41
+DimProducts,BaseUnitMarginPct,float64,Approved product,Base Unit Margin Pct.,False,0.2522
+DimProducts,DemandWeight,float64,Approved product,Demand Weight.,False,1.82
+DimProducts,StorageType,object,Approved product,Storage Type.,False,Ambient
+DimProducts,RangeTier,object,Approved product,Range Tier.,False,Core
+DimProducts,InventoryTracked,bool,Approved product,True when the product belongs to the monitored inventory range.,False,True
+DimRegions,RegionID,object,Operating region,Region ID.,False,REG01
+DimRegions,Region,object,Operating region,Region.,False,Gauteng
+DimRegions,OperatingCorridor,object,Operating region,Operating Corridor.,False,Central
+DimStores,StoreID,object,Approved store,Approved store dimension key.,False,ST001
+DimStores,StoreName,object,Approved store,Store Name.,False,Morrowfield Rosebank
+DimStores,City,object,Approved store,City.,False,Johannesburg
+DimStores,RegionID,object,Approved store,Region ID.,False,REG01
+DimStores,Region,object,Approved store,Region.,False,Gauteng
+DimStores,StoreFormat,object,Approved store,Store Format.,False,Market
+DimStores,SellingAreaSqm,int64,Approved store,Selling Area Sqm.,False,1386
+DimStores,OperatingSince,object,Approved store,Operating Since.,False,2020-05-04
+DimStores,CommercialIndex,float64,Approved store,Commercial Index.,False,1.003
+DimStores,Cluster,object,Approved store,Cluster.,False,Inland
+DimStores,RegionalManager,object,Approved store,Regional Manager.,False,N. Maseko
+DimSuppliers,SupplierID,object,Approved supplier,Approved primary supplier dimension key.,False,SUP001
+DimSuppliers,SupplierName,object,Approved supplier,Supplier Name.,False,Karoo Milling Cooperative
+DimSuppliers,SupplierCity,object,Approved supplier,Supplier City.,False,Bloemfontein
+DimSuppliers,SupplierRegion,object,Approved supplier,Supplier Region.,False,Free State
+DimSuppliers,ContractFillRate,float64,Approved supplier,Contract Fill Rate.,False,0.943
+DimSuppliers,ContractOnTimeRate,float64,Approved supplier,Contract On Time Rate.,False,0.931
+DimSuppliers,ContractLeadDays,int64,Approved supplier,Contract Lead Days.,False,4
+DimSuppliers,TemperatureBand,object,Approved supplier,Temperature Band.,False,Ambient
+FactInventoryWeekly,InventoryRecordID,object,Tracked store-product-week,Unique tracked store-product-week stock observation.,False,IN000001
+FactInventoryWeekly,WeekStartDate,object,Tracked store-product-week,Monday starting the completed reporting week.,False,2026-02-23
+FactInventoryWeekly,StoreID,object,Tracked store-product-week,Approved store dimension key.,False,ST001
+FactInventoryWeekly,ProductID,object,Tracked store-product-week,Approved product assortment dimension key.,False,PR001
+FactInventoryWeekly,SupplierID,object,Tracked store-product-week,Approved primary supplier dimension key.,False,SUP001
+FactInventoryWeekly,OpeningUnits,int64,Tracked store-product-week,Opening Units.,False,54
+FactInventoryWeekly,OrderedUnits,int64,Tracked store-product-week,Ordered Units.,False,65
+FactInventoryWeekly,ReceivedUnits,int64,Tracked store-product-week,Received Units.,False,58
+FactInventoryWeekly,ExpectedDemandUnits,int64,Tracked store-product-week,Modelled expected units before stock suppression.,False,91
+FactInventoryWeekly,FulfilledDemandUnits,int64,Tracked store-product-week,Expected demand that could be fulfilled from available shelf stock.,False,91
+FactInventoryWeekly,ClosingUnits,int64,Tracked store-product-week,Closing Units.,False,21
+FactInventoryWeekly,DaysCover,float64,Tracked store-product-week,Days Cover.,False,1.6
+FactInventoryWeekly,AvailabilityRate,float64,Tracked store-product-week,Fulfilled demand units divided by expected demand units at record grain.,False,1.0
+FactInventoryWeekly,StockoutHours,float64,Tracked store-product-week,Stockout Hours.,False,0.0
+FactInventoryWeekly,EstimatedLostUnits,int64,Tracked store-product-week,"Capture-adjusted missing demand units; estimate, not observed transactions.",False,0
+FactInventoryWeekly,EstimatedLostSales,float64,Tracked store-product-week,Capture-adjusted missed units multiplied by realised selling price.,False,0.0
+FactInventoryWeekly,EstimatedLostGrossProfit,float64,Tracked store-product-week,Capture-adjusted missed units multiplied by non-negative unit gross margin.,False,0.0
+FactInventoryWeekly,LateDeliveryDays,int64,Tracked store-product-week,Late Delivery Days.,False,0
+FactPurchaseOrders,PurchaseOrderID,object,Individual supplier purchase order,Unique supplier purchase-order record.,False,PO000001
+FactPurchaseOrders,OrderWeekStart,object,Individual supplier purchase order,Order Week Start.,False,2026-02-23
+FactPurchaseOrders,StoreID,object,Individual supplier purchase order,Approved store dimension key.,False,ST001
+FactPurchaseOrders,SupplierID,object,Individual supplier purchase order,Approved primary supplier dimension key.,False,SUP001
+FactPurchaseOrders,OrderDate,object,Individual supplier purchase order,Order Date.,False,2026-02-21
+FactPurchaseOrders,PromisedDate,object,Individual supplier purchase order,Promised Date.,False,2026-02-27
+FactPurchaseOrders,ReceivedDate,object,Individual supplier purchase order,Received Date.,False,2026-02-27
+FactPurchaseOrders,OrderedUnits,int64,Individual supplier purchase order,Ordered Units.,False,237
+FactPurchaseOrders,ReceivedUnits,int64,Individual supplier purchase order,Received Units.,False,212
+FactPurchaseOrders,FillRate,float64,Individual supplier purchase order,Received purchase-order units divided by ordered units.,False,0.8953
+FactPurchaseOrders,DaysLate,int64,Individual supplier purchase order,Days Late.,False,0
+FactPurchaseOrders,OnTimeFlag,bool,Individual supplier purchase order,True when the delivery is not later than its promised date.,False,True
+FactPurchaseOrders,TemperatureBand,object,Individual supplier purchase order,Temperature Band.,False,Ambient
+FactPurchaseOrders,DeliveryStatus,object,Individual supplier purchase order,Delivery Status.,False,Short
+FactSalesWeekly,SalesRecordID,object,Store-product-week and record type,Unique weekly sales or return adjustment record.,False,SL000001
+FactSalesWeekly,WeekStartDate,object,Store-product-week and record type,Monday starting the completed reporting week.,False,2026-02-23
+FactSalesWeekly,StoreID,object,Store-product-week and record type,Approved store dimension key.,False,ST001
+FactSalesWeekly,ProductID,object,Store-product-week and record type,Approved product assortment dimension key.,False,PR001
+FactSalesWeekly,SupplierID,object,Store-product-week and record type,Approved primary supplier dimension key.,False,SUP001
+FactSalesWeekly,RecordType,object,Store-product-week and record type,Record Type.,False,Sale
+FactSalesWeekly,Units,int64,Store-product-week and record type,Units.,False,91
+FactSalesWeekly,ListUnitPrice,float64,Store-product-week and record type,List Unit Price.,False,84.8
+FactSalesWeekly,DiscountRate,float64,Store-product-week and record type,Discount Rate.,False,0.0819
+FactSalesWeekly,GrossSales,float64,Store-product-week and record type,"Signed gross sales before discount, including return reversals.",False,7716.8
+FactSalesWeekly,DiscountAmount,float64,Store-product-week and record type,Signed commercial discount on the sales or return record.,False,631.73
+FactSalesWeekly,NetSales,float64,Store-product-week and record type,Gross sales less discount; includes signed returns.,False,7085.07
+FactSalesWeekly,UnitCost,float64,Store-product-week and record type,Unit Cost.,False,64.08
+FactSalesWeekly,CostOfGoodsSold,float64,Store-product-week and record type,Signed realised cost attached to sold or returned units.,False,5831.28
+FactSalesWeekly,GrossProfit,float64,Store-product-week and record type,Net sales less recorded cost of goods sold.,False,1253.79
+FactSalesWeekly,PromotionName,object,Store-product-week and record type,Approved campaign label; No promotion denotes a non-promoted record.,False,Month-end Essentials
+FactSalesWeekly,BasketCount,int64,Store-product-week and record type,Basket Count.,False,49
+FactStoreTargets,TargetID,object,Store and reporting week,Unique store-week management target.,False,TG00001
+FactStoreTargets,WeekStartDate,object,Store and reporting week,Monday starting the completed reporting week.,False,2026-02-23
+FactStoreTargets,StoreID,object,Store and reporting week,Approved store dimension key.,False,ST001
+FactStoreTargets,NetSalesTarget,float64,Store and reporting week,Net Sales Target.,False,122718.81
+FactStoreTargets,GrossMarginTarget,float64,Store and reporting week,Gross Margin Target.,False,0.29
+FactStoreTargets,AvailabilityTarget,float64,Store and reporting week,Availability Target.,False,0.94
+FactStoreTargets,SupplierFillRateTarget,float64,Store and reporting week,Supplier Fill Rate Target.,False,0.95
+FactStoreTargets,OnTimeDeliveryTarget,float64,Store and reporting week,On Time Delivery Target.,False,0.93
