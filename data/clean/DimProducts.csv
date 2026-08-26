@@ -1,0 +1,78 @@
+ProductID,ProductName,Brand,Category,SupplierID,ListUnitPrice,StandardUnitCost,BaseUnitMarginPct,DemandWeight,StorageType,RangeTier,InventoryTracked
+PR001,White maize meal 5 kg,Stonepath,Pantry Staples,SUP001,84.8,63.41,0.2522,1.82,Ambient,Core,True
+PR002,Cake wheat flour 2.5 kg,Stonepath,Pantry Staples,SUP001,43.64,31.15,0.2862,1.21,Ambient,Core,True
+PR003,Brown bread flour 2.5 kg,Stonepath,Pantry Staples,SUP001,49.44,35.21,0.2878,0.86,Ambient,Support,False
+PR004,Long-grain rice 2 kg,Riverbend,Pantry Staples,SUP008,70.43,53.98,0.2336,1.46,Ambient,Core,True
+PR005,Basmati rice 1 kg,Riverbend,Pantry Staples,SUP008,54.46,38.79,0.2877,0.78,Ambient,Tail,False
+PR006,Sunflower cooking oil 2 L,Tablelands,Pantry Staples,SUP012,95.69,76.54,0.2001,1.51,Ambient,Core,True
+PR007,Chopped tomatoes 410 g,Tablelands,Pantry Staples,SUP012,19.41,12.83,0.339,1.08,Ambient,Core,True
+PR008,Baked beans 410 g,Tablelands,Pantry Staples,SUP012,17.89,12.41,0.3063,1.28,Ambient,Core,True
+PR009,Smooth peanut butter 800 g,Field Kitchen,Pantry Staples,SUP011,73.66,53.36,0.2756,1.12,Ambient,Core,True
+PR010,Spaghetti 500 g,Tablelands,Pantry Staples,SUP012,24.39,16.04,0.3424,1.11,Ambient,Core,True
+PR011,Macaroni 500 g,Tablelands,Pantry Staples,SUP012,25.34,16.97,0.3303,0.92,Ambient,Support,True
+PR012,Chicken stock cubes 24 pack,Field Kitchen,Pantry Staples,SUP011,38.41,24.06,0.3736,0.79,Ambient,Support,False
+PR013,Tomato sauce 700 ml,Field Kitchen,Pantry Staples,SUP011,39.78,27.72,0.3032,1.17,Ambient,Core,True
+PR014,Pilchards in tomato 400 g,Harbour Table,Pantry Staples,SUP008,29.98,21.1,0.2962,1.04,Ambient,Support,True
+PR015,Full-cream fresh milk 2 L,Northfield Dairy,Chilled Dairy,SUP002,37.4,28.74,0.2316,2.13,Chilled,Core,True
+PR016,Low-fat fresh milk 2 L,Northfield Dairy,Chilled Dairy,SUP002,37.89,29.86,0.2119,1.57,Chilled,Core,True
+PR017,Plain cultured yoghurt 1 kg,Northfield Dairy,Chilled Dairy,SUP002,49.25,36.88,0.2512,1.31,Chilled,Core,True
+PR018,Cheddar cheese block 700 g,Northfield Dairy,Chilled Dairy,SUP002,108.97,90.11,0.1731,1.29,Chilled,Core,True
+PR019,Mature cheddar 400 g,Northfield Dairy,Chilled Dairy,SUP002,80.21,62.65,0.2189,0.82,Chilled,Support,True
+PR020,Salted farm butter 500 g,Midlands Table,Chilled Dairy,SUP007,90.38,73.82,0.1832,1.09,Chilled,Core,True
+PR021,Free-range eggs 18 pack,Midlands Table,Chilled Dairy,SUP007,67.54,51.0,0.2449,1.51,Chilled,Core,True
+PR022,Strawberry yoghurt 6 pack,Northfield Dairy,Chilled Dairy,SUP002,43.08,30.21,0.2987,1.16,Chilled,Core,True
+PR023,Greek-style yoghurt 500 g,Midlands Table,Chilled Dairy,SUP007,39.85,27.51,0.3097,0.93,Chilled,Support,True
+PR024,Whipping cream 250 ml,Midlands Table,Chilled Dairy,SUP007,32.85,23.65,0.2801,0.71,Chilled,Tail,False
+PR025,Fresh mozzarella 200 g,Midlands Table,Chilled Dairy,SUP007,46.79,32.36,0.3084,0.59,Chilled,Tail,False
+PR026,Cottage cheese 250 g,Northfield Dairy,Chilled Dairy,SUP002,31.58,21.53,0.3182,0.68,Chilled,Tail,True
+PR027,Wholegrain oats 1 kg,Summit Grain,Breakfast,SUP006,44.61,31.2,0.3006,1.44,Ambient,Core,True
+PR028,Instant oats original 500 g,Summit Grain,Breakfast,SUP006,37.93,24.88,0.3441,1.09,Ambient,Core,True
+PR029,Bran flakes 750 g,Summit Grain,Breakfast,SUP006,55.23,38.38,0.3051,1.08,Ambient,Core,True
+PR030,Granola cranberry 600 g,Orchard Morning,Breakfast,SUP003,80.57,52.36,0.3501,0.84,Ambient,Support,False
+PR031,Corn flakes 1 kg,Summit Grain,Breakfast,SUP006,59.79,43.22,0.2771,1.26,Ambient,Core,True
+PR032,Wheat biscuits 900 g,Summit Grain,Breakfast,SUP006,64.52,45.88,0.2889,1.18,Ambient,Core,True
+PR033,Crunchy peanut clusters 450 g,Orchard Morning,Breakfast,SUP003,61.87,40.24,0.3496,0.68,Ambient,Tail,False
+PR034,Fruit muesli 750 g,Orchard Morning,Breakfast,SUP003,73.4,50.1,0.3174,0.77,Ambient,Tail,False
+PR035,Instant maize porridge 1 kg,Summit Grain,Breakfast,SUP006,39.98,28.54,0.2861,1.13,Ambient,Core,True
+PR036,Berry breakfast biscuits 300 g,Field Kitchen,Breakfast,SUP011,35.81,22.58,0.3694,0.73,Ambient,Tail,False
+PR037,Honey oat clusters 450 g,Orchard Morning,Breakfast,SUP003,69.4,46.17,0.3347,0.65,Ambient,Tail,False
+PR038,Laundry powder 3 kg,Clearwell,Household Care,SUP004,109.85,79.82,0.2734,1.41,Ambient,Core,True
+PR039,Dishwashing liquid 750 ml,Clearwell,Household Care,SUP004,31.9,20.33,0.3627,1.63,Ambient,Core,True
+PR040,All-purpose cleaner 1 L,Bayline,Household Care,SUP010,39.24,26.3,0.3298,1.17,Ambient,Core,True
+PR041,Toilet cleaner 750 ml,Bayline,Household Care,SUP010,33.05,21.06,0.3628,1.12,Ambient,Core,True
+PR042,Fabric conditioner 2 L,Clearwell,Household Care,SUP004,75.26,51.97,0.3095,1.03,Ambient,Support,True
+PR043,Bleach original 1.5 L,Bayline,Household Care,SUP010,28.51,19.05,0.3318,1.08,Ambient,Core,True
+PR044,Laundry capsules 24 pack,Clearwell,Household Care,SUP004,120.75,84.74,0.2982,0.78,Ambient,Tail,False
+PR045,Kitchen degreaser 500 ml,Bayline,Household Care,SUP010,43.49,26.58,0.3888,0.77,Ambient,Tail,False
+PR046,Bin liners 30 pack,Home Ledger,Household Care,SUP011,37.72,22.84,0.3945,0.86,Ambient,Support,False
+PR047,Handwash refill 750 ml,Clearwell,Household Care,SUP004,49.13,32.06,0.3474,0.96,Ambient,Support,True
+PR048,Multipurpose wipes 80 pack,Home Ledger,Household Care,SUP011,44.32,27.44,0.3809,0.88,Ambient,Support,False
+PR049,Floor cleaner 1 L,Bayline,Household Care,SUP010,37.49,23.87,0.3633,0.72,Ambient,Tail,False
+PR050,Laundry bar 500 g,Clearwell,Household Care,SUP004,24.82,17.28,0.3038,1.04,Ambient,Support,True
+PR051,Daily shampoo 400 ml,Good Harbour,Personal Care,SUP005,55.28,35.13,0.3645,1.21,Ambient,Core,True
+PR052,Nourishing conditioner 400 ml,Good Harbour,Personal Care,SUP005,57.7,36.95,0.3596,0.93,Ambient,Support,True
+PR053,Fresh deodorant 150 ml,Good Harbour,Personal Care,SUP005,39.93,24.41,0.3887,1.38,Ambient,Core,True
+PR054,Sensitive toothpaste 100 ml,Brightline,Personal Care,SUP011,37.36,23.05,0.383,1.11,Ambient,Core,True
+PR055,Family toothpaste 150 ml,Brightline,Personal Care,SUP011,34.37,22.17,0.355,1.22,Ambient,Core,True
+PR056,Body lotion 400 ml,Good Harbour,Personal Care,SUP005,70.62,44.89,0.3643,1.01,Ambient,Support,True
+PR057,Gentle body wash 500 ml,Good Harbour,Personal Care,SUP005,58.64,37.01,0.3689,1.12,Ambient,Core,True
+PR058,Disposable razors 5 pack,Brightline,Personal Care,SUP011,46.17,28.03,0.3929,0.77,Ambient,Tail,False
+PR059,Moisture soap 4 pack,Good Harbour,Personal Care,SUP005,44.12,29.36,0.3345,1.07,Ambient,Core,True
+PR060,Daily sunscreen SPF30 100 ml,Brightline,Personal Care,SUP011,96.02,59.1,0.3845,0.61,Ambient,Tail,False
+PR061,Cotton buds 200 pack,Brightline,Personal Care,SUP011,23.66,14.04,0.4066,0.74,Ambient,Tail,False
+PR062,Apple juice 1 L,Cape Press,Snacks & Drinks,SUP003,34.8,25.31,0.2727,1.22,Ambient,Core,True
+PR063,Orange juice 1 L,Cape Press,Snacks & Drinks,SUP003,36.77,26.95,0.2671,1.31,Ambient,Core,True
+PR064,Sparkling water 6 pack,Ridgewater,Snacks & Drinks,SUP009,50.0,33.51,0.3298,1.12,Ambient,Core,True
+PR065,Still water 6 pack,Ridgewater,Snacks & Drinks,SUP009,43.97,30.37,0.3093,1.19,Ambient,Core,True
+PR066,Cola zero sugar 2 L,Ridgewater,Snacks & Drinks,SUP009,30.07,21.06,0.2996,1.37,Ambient,Core,True
+PR067,Ginger beer 2 L,Ridgewater,Snacks & Drinks,SUP009,32.29,21.91,0.3215,0.96,Ambient,Support,True
+PR068,Salted potato crisps 125 g,Field Kitchen,Snacks & Drinks,SUP011,24.99,15.48,0.3806,1.58,Ambient,Core,True
+PR069,Cheddar potato crisps 125 g,Field Kitchen,Snacks & Drinks,SUP011,25.34,15.87,0.3737,1.32,Ambient,Core,True
+PR070,Roasted mixed nuts 250 g,Cape Press,Snacks & Drinks,SUP003,65.74,44.23,0.3272,0.84,Ambient,Support,False
+PR071,Dark chocolate slab 100 g,Field Kitchen,Snacks & Drinks,SUP011,29.82,18.36,0.3843,1.05,Ambient,Support,True
+PR072,Milk chocolate slab 100 g,Field Kitchen,Snacks & Drinks,SUP011,28.69,17.92,0.3754,1.12,Ambient,Core,True
+PR073,Fruit juice boxes 6 pack,Cape Press,Snacks & Drinks,SUP003,46.87,32.51,0.3064,0.93,Ambient,Support,True
+PR074,Rooibos iced tea 1.5 L,Ridgewater,Snacks & Drinks,SUP009,37.88,24.52,0.3527,0.81,Ambient,Support,False
+PR075,Trail mix cranberry 200 g,Cape Press,Snacks & Drinks,SUP003,49.55,31.75,0.3592,0.76,Ambient,Tail,False
+PR076,Cheese crackers 200 g,Field Kitchen,Snacks & Drinks,SUP011,29.62,18.37,0.3798,0.97,Ambient,Support,True
+PR077,Salted popcorn 100 g,Field Kitchen,Snacks & Drinks,SUP011,19.88,11.89,0.4019,1.04,Ambient,Support,True
